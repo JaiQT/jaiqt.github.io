@@ -125,7 +125,7 @@ p {
 #content {
   position: absolute;
   top: 100%;
-  animation: scoller 100s linear 16s;
+  animation: scoller 130s linear 16s;
 }
 
 @keyframes scoller {
@@ -161,7 +161,7 @@ p {
   z-index: 2;
   width: 100%;
   opacity: 0;
-  animation: index 2s ease-out forwards 79s;
+  animation: index 2s ease-out forwards 99s;
 }
 
 @keyframes index {
@@ -221,13 +221,13 @@ p {
 
 @media (max-width: 1200px) {
   .index {
-    animation: index 2s ease-out forwards 74s;
+    animation: index 2s ease-out forwards 95s;
   }
 }
 
 @media (max-width: 820px) {
   .index {
-    animation: index 2s ease-out forwards 90s;
+    animation: index 2s ease-out forwards 112s;
     flex-direction: column;
     height: 55%;
   }
@@ -247,6 +247,6 @@ p {
     font-size: 140%;
   }
   .index {
-    animation: index 2s ease-out forwards 94s;
+    animation: index 2s ease-out forwards 116s;
   }
 }
