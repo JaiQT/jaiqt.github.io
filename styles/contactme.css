@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+}
+
+.stars {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  background-color: #fff;
+  z-index: 2;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 20px;
+}
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+}
+.menu li {
+  padding: 5px 14px;
+}
+
+label {
+  color: #ffe81f;
+}
+
+.list {
+  list-style: none;
+  margin-right: 2%;
+  margin-top: 2%;
+}
+
+nav ul a {
+  font-size: 35px;
+  margin-right: 20px;
+  padding: 10px;
+  text-decoration: none;
+  color: #ffe81f;
+}
+
+#index:hover {
+  color: #ff0000;
+  cursor: url(../img/sable.png), pointer;
+  transform: translateY(2px);
+}
+
+#projects:hover {
+  color: #d00af7;
+  cursor: url(../img/sable.png), pointer;
+  transform: translateY(2px);
+}
+
+#aboutme:hover {
+  color: #02ff00;
+  cursor: url(../img/sable.png), pointer;
+  transform: translateY(2px);
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+.burger {
+  display: none;
+  font-size: 24px;
+  user-select: none;
+}
+
+#myself {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+  margin-top: 10%;
+}
+#myself_container {
+  display: flex;
+  width: 60%;
+}
+
+#myself i {
+  color: #4bd5ee;
+}
+
+#myself i:hover {
+  cursor: url(../img/sable.png), pointer;
+  transform: translateY(2px);
+  color: #ffffff;
+}
+
+#myself legend {
+  color: #ffe81f;
+  font-size: 150%;
+  padding: 2%;
+}
+
+#myself_contact {
+  display: flex;
+  justify-content: center;
+  gap: 30%;
+  margin: auto;
+  list-style: none;
+  font-size: 50px;
+  padding: 5%;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 16px 0;
+  }
+  .menu li:hover {
+    display: inline-block;
+    transition: 0.3s ease;
+  }
+  .menu li + li {
+    margin-top: 12px;
+  }
+
+  input[type="checkbox"]:checked ~ .menu {
+    display: block;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  #myself {
+    margin-top: 30%;
+  }
+  #myself_container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  #myself {
+    margin-top: 55%;
+  }
+  #myself li {
+    padding-top: 20%;
+    padding-bottom: 20%;
+  }
+  #myself_contact {
+    display: block;
+  }
+}

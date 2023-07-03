@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+body {
+  margin: 0;
+  background-color: #000;
+  overflow: hidden !important;
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80vh;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1) 61%,
+    rgba(0, 0, 0, 0.54) 79%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  z-index: 1;
+}
+
+.stars {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  background-color: #fff;
+  z-index: 2;
+}
+
+.intro {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  opacity: 0;
+  animation: intro 6s ease-out 0.5s;
+}
+
+.intro p {
+  color: #4bd5ee;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 3.25rem;
+}
+
+@keyframes intro {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 100%;
+  opacity: 0;
+  animation: logo 10s ease-out 9s;
+}
+
+.logo img {
+  width: inherit;
+}
+
+@keyframes logo {
+  0% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(2);
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.1);
+  }
+}
+
+p {
+  color: #ffe81f;
+}
+
+#scroller {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 350%;
+  text-align: justify;
+  overflow: hidden;
+  height: 50em;
+  width: 20em;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -10em;
+  z-index: 0;
+  transform: perspective(350px) rotateX(25deg);
+  transform-origin: 50% 100%;
+}
+
+#scroller::after {
+  position: absolute;
+  content: "";
+  bottom: 60%;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+#content {
+  position: absolute;
+  top: 100%;
+  animation: scoller 100s linear 16s;
+}
+
+@keyframes scoller {
+  0% {
+    top: 100%;
+  }
+  100% {
+    top: -200%;
+  }
+}
+
+#title,
+#subtitle {
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+#subtitle {
+  text-transform: uppercase;
+  font-size: 3.5rem;
+}
+
+.index {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 100%;
+  opacity: 0;
+  animation: index 2s ease-out forwards 85s;
+}
+
+@keyframes index {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.1);
+  }
+  30% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+.index img {
+  width: 35%;
+}
+
+.index div {
+  width: 15%;
+}
+
+.index i {
+  color: #e4c03f;
+}
+
+#aboutme:hover {
+  color: #02ff00;
+  cursor: url(../img/sable.png), pointer;
+  transform: translateY(2px);
+}
+
+#projects:hover {
+  color: #d00af7;
+  cursor: url(../img/sable.png), pointer;
+  transform: translateY(2px);
+}
+
+#contact:hover {
+  color: #024dfa;
+  cursor: url(../img/sable.png), pointer;
+  transform: translateY(2px);
+}
+
+/* Responsive */
+
+@media (max-width: 1440px) {
+  #scroller {
+    font-size: 250%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .index {
+    animation: index 2s ease-out forwards 80s;
+  }
+}
+
+@media (max-width: 820px) {
+  .index {
+    animation: index 2s ease-out forwards 94s;
+    flex-direction: column;
+    height: 55%;
+  }
+  .index div {
+    width: auto;
+    height: 5%;
+    padding-top: 10px;
+  }
+  .index img {
+    height: 70%;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  #scroller {
+    font-size: 140%;
+  }
+  .index {
+    animation: index 2s ease-out forwards 99s;
+  }
+}
