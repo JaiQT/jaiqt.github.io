@@ -242,11 +242,20 @@ p {
   }
 }
 
-@media screen and (max-width: 720px) {
+@media (max-width: 720px) {
   #scroller {
     font-size: 140%;
   }
   .index {
     animation: index 2s ease-out forwards 116s;
+  }
+}
+
+@media (max-width: 500px) {
+  #scroller {
+    font-size: 110%;
+  }
+  #subtitle {
+    font-size: 2rem;
   }
 }
