@@ -133,7 +133,7 @@ input[type="checkbox"] {
   padding-top: 1%;
 }
 
-.box_project:hover {
+.box_project a:hover {
   transition-duration: 2s;
   transform: scale(2);
   cursor: url(../img/sable.png), pointer;
