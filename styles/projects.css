@@ -9,6 +9,10 @@ body {
   background-color: #000;
 }
 
+a{
+  cursor: url(../img/sable.png), pointer;;
+}
+
 .stars {
   position: absolute;
   width: 1px;
@@ -133,7 +137,7 @@ input[type="checkbox"] {
   padding-top: 1%;
 }
 
-.box_project a:hover {
+.box_project:hover {
   transition-duration: 2s;
   transform: scale(2);
   cursor: url(../img/sable.png), pointer;
