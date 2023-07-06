@@ -95,7 +95,7 @@ input[type="checkbox"] {
   z-index: 2;
   width: 100%;
   opacity: 0;
-  animation: index 2s ease-out forwards 2.5s;
+  animation: index 2s ease-out forwards 2s;
 }
 
 @keyframes index {
