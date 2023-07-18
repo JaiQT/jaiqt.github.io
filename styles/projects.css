@@ -135,6 +135,7 @@ input[type="checkbox"] {
   max-height: 204px;
   margin: auto;
   padding-top: 1%;
+  object-fit: cover;
 }
 
 .box_project:hover {
