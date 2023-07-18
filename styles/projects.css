@@ -144,6 +144,11 @@ input[type="checkbox"] {
   cursor: url(../img/sable.png), pointer;
 }
 
+.box_project:visited {
+  transition-duration: 2s;
+  transform: scale(0);
+}
+
 .box_project h3 {
   display: flex;
   justify-content: center;
