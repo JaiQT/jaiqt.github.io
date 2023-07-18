@@ -94,6 +94,10 @@ input[type="checkbox"] {
   padding: 2%;
 }
 
+#myself img {
+  object-fit: cover;
+}
+
 #myself span {
   color: #4bd5ee;
   font-family: "Open Sans", sans-serif;
