@@ -145,7 +145,6 @@ input[type="checkbox"] {
 }
 
 .box_project:active {
-  transition-duration: 2s;
   transform: scale(1);
 }
 
