@@ -197,9 +197,7 @@ input[type="checkbox"] {
 }
 
 @media (max-width: 600px) {
-  nav ul a {
-    font-size: 20px;
-  }
+ 
   .index {
     top: 60%;
   }
