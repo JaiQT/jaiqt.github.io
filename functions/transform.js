@@ -1,4 +1,4 @@
 function transform() {
-    const boxProject = document.getElementsByClassName('box_project');
+    const boxProject =  event.target.closest('.box_project');
     boxProject.style.transform = 'scale(1)';
 }
