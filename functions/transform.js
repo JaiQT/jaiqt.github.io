@@ -1,4 +1,4 @@
 function transform() {
-    const boxProject = document.getElementsByClassName('box_project');
+    const boxProject = document.getElementById('calculator');
     boxProject.style.transform = 'none';
 }
