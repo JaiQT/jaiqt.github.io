@@ -203,11 +203,11 @@ input[type="checkbox"] {
   .index {
     top: 60%;
   }
-  .title {
-    font-size: 10px;
-  }
   .box_project {
     width: 30%;
+  }
+  .title {
+    font-size: 10px;
   }
   .box_project i {
     font-size: 15px;
