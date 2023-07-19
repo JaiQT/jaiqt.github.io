@@ -197,7 +197,7 @@ input[type="checkbox"] {
 }
 
 
-@media (max-width: 730px){
+@media (max-width: 750px){
   .box_project {
     width: 30%;
   }
