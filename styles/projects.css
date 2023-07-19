@@ -145,7 +145,7 @@ input[type="checkbox"] {
 }
 
 .box_project:active {
-  display: none;
+  color: #ff0000;
 }
 
 .box_project h3 {
