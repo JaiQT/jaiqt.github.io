@@ -208,7 +208,7 @@ input[type="checkbox"] {
   }
 }
 
-@media (max-width: 650) {
+@media (max-width: 700) {
   .index {
     top: 60%;
   }
