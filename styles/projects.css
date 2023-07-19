@@ -196,12 +196,16 @@ input[type="checkbox"] {
   }
 }
 
+
+@media (max-width: 700px){
+  .box_project {
+    width: 30%;
+  }
+}
+
 @media (max-width: 600px) {
   nav ul a {
     font-size: 20px;
-  }
-  .box_project {
-    width: 30%;
   }
   .title {
     font-size: 10px;
