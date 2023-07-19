@@ -213,8 +213,3 @@ input[type="checkbox"] {
   }
 }
 
-@media (max-width: 400px) {
-  .box_project {
-    width: 40%;
-  }
-}
