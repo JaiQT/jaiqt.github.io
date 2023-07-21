@@ -109,6 +109,7 @@ input[type="checkbox"] {
 
 .btn-download {
   z-index: 1;
+  display: inline-block;
   margin: auto;
 }
 
