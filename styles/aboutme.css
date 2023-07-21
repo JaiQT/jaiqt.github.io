@@ -107,6 +107,12 @@ input[type="checkbox"] {
   margin-bottom: 2%;
 }
 
+.btn-download {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
 /* Responsive */
 
 @media (max-width: 768px) {
