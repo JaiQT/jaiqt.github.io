@@ -132,6 +132,11 @@ input[type="checkbox"] {
   animation: crawl 5s linear infinite;
 }
 
+.btn-download:hover {
+  background-color: #ffbb33;
+  border-color: #ffbb33;
+}
+
 
 @keyframes crawl {
   to {
