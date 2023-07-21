@@ -147,7 +147,9 @@ input[type="checkbox"] {
   }
 }
 
-
+.btn-download-link {
+  text-decoration: none;
+}
 
 /* Responsive */
 
