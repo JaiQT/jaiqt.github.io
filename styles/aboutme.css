@@ -144,7 +144,7 @@ input[type="checkbox"] {
   cursor: url(../img/sable.png), pointer;
 }
 .btn-download-link:hover {
-  color: #ffe81f;
+  cursor: inherit;
 }
 
 
