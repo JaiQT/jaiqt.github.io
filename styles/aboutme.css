@@ -148,7 +148,8 @@ input[type="checkbox"] {
 
 .btn-download-link {
   text-decoration: none;
-  color: #4bd5ee;
+  /*color: #4bd5ee;*/
+  color: red;
 }
 
 .btn-download-link:hover {
