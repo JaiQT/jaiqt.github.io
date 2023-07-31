@@ -134,7 +134,7 @@ input[type="checkbox"] {
 .btn-download-link {
   text-decoration: none;
   color: inherit;
-  cursor: pointer;
+  cursor: url(../img/sable.png),pointer;
   letter-spacing: 0.8px;
 }
 
