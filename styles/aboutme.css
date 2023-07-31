@@ -131,6 +131,11 @@ input[type="checkbox"] {
   animation: crawl 5s linear infinite;
 }
 
+.btn-download-link {
+  text-decoration: none;
+  color: #4bd5ee;
+}
+
 .btn-download:hover {
   background-color: #0e639c;
   border-color: #0e639c;
@@ -147,10 +152,7 @@ input[type="checkbox"] {
   }
 }
 
-.btn-download-link {
-  text-decoration: none;
-  color: #4bd5ee;
-}
+
 
 /*.btn-download-link:hover {
   color: #ffe81f;
