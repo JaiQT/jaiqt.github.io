@@ -109,6 +109,7 @@ input[type="checkbox"] {
 }
 
 .btn-download {
+  color: #4bd5ee;
   margin-top: 2%;
   font-size: 24px;
   padding: 12px 20px;
@@ -133,7 +134,6 @@ input[type="checkbox"] {
 
 .btn-download-link {
   text-decoration: none;
-  color: #4bd5ee;
 }
 
 .btn-download:hover {
