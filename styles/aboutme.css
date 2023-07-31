@@ -134,6 +134,7 @@ input[type="checkbox"] {
 .btn-download:hover {
   background-color: #0e639c;
   border-color: #0e639c;
+  color: #ffe81f;
 }
 
 
@@ -148,13 +149,12 @@ input[type="checkbox"] {
 
 .btn-download-link {
   text-decoration: none;
-  /*color: #4bd5ee;*/
-  color: red;
+  color: #4bd5ee;
 }
 
-.btn-download-link:hover {
+/*.btn-download-link:hover {
   color: #ffe81f;
-}
+} */
 
 /* Responsive */
 
