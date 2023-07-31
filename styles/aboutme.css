@@ -109,7 +109,6 @@ input[type="checkbox"] {
 }
 
 .btn-download {
-  color: #4bd5ee;
   margin-top: 2%;
   font-size: 24px;
   padding: 12px 20px;
@@ -134,6 +133,7 @@ input[type="checkbox"] {
 
 .btn-download-link {
   text-decoration: none;
+  color: #4bd5ee;
 }
 
 .btn-download:hover {
@@ -141,6 +141,9 @@ input[type="checkbox"] {
   border-color: #0e639c;
   color: #ffe81f;
   cursor: url(../img/sable.png), pointer;
+}
+.btn-download-link:hover {
+  color: #ffe81f;
 }
 
 
